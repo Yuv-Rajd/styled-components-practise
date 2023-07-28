@@ -1,0 +1,22 @@
+/* #root div {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 205px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  max-height: 3.6em;
+  overflow: hidden;
+  padding-right: 100px;
+}
+#root div::after {
+  content: "See More";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 5px;
+  background-color: white;
+  cursor: pointer;
+} */
